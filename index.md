@@ -8,6 +8,7 @@ This repo also contains the details of our empirical evaluation on 93 benchmark 
 ## Evaluation:
 
 ### Google Play
+
 | App                                             | Category            | Version                | Size (KB) | Installs       |
 |-------------------------------------------------|---------------------|------------------------|-----------|----------------|
 | com.saq.android                                 | LIFESTYLE           |  5.1.5                 | 6.82      | 500,000+       |
@@ -106,6 +107,7 @@ This repo also contains the details of our empirical evaluation on 93 benchmark 
 | com.spotify.music                               | MUSIC AND AUDIO     | 8.4.64.555             | 33.51     | 100,000,000+   |
 
 ### Benchmark
+
 | Package Name                            | Version       | Size(KB)    |
 |-----------------------------------------|---------------|-------------|
 | net.jaqpot.netcounter                   |  0.13.1       | 0.203125    |
