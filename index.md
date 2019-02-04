@@ -204,12 +204,12 @@ This repo also contains the details of our empirical evaluation on 93 benchmark 
 
 ## Evaluation Set Stats
 
-| Google Play                |
+| Google Play |      |       |
 |-------------|------|-------|
 | Mean        | Min  | Max   |
 | 25.03       | 1.32 | 86.72 |
 
-| Benchmark                |
+| Benchmark |      |       |
 |-----------|------|-------|
 | Mean      | Min  | Max   |
 | 0.71      | 0.02 | 20.59 |
