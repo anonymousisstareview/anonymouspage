@@ -5,7 +5,7 @@ At the core of our solution is an accurate, statically-built model, called Scree
 
 This repo also contains the details of our empirical evaluation on 93 benchmark applications and 95 the most popular GooglePlay applications, with detailed app version, category, and size.
 
-## Evaluation:
+## Evaluation Set:
 
 ### Google Play
 
@@ -201,3 +201,19 @@ This repo also contains the details of our empirical evaluation on 93 benchmark 
 | es.senselesssolutions.gpl.weightchart   |  1.0.4        | 0.108398438 |
 | org.liberty.android.fantastischmemo     | 2131230964    | 0.946289063 |
 | net.everythingandroid.timer             |  1.1.0        | 0.196289063 |
+
+## Evaluation Set Stats
+
+| Google Play                |
+|-------------|------|-------|
+| Mean        | Min  | Max   |
+| 25.03       | 1.32 | 86.72 |
+
+| Benchmark                |
+|-----------|------|-------|
+| Mean      | Min  | Max   |
+| 0.71      | 0.02 | 20.59 |
+
+### Google Play Catagory
+
+![Distribution](images/GooglePlayDistribution.png)
