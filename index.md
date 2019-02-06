@@ -204,10 +204,10 @@ This repo also contains the details of our empirical evaluation on 93 benchmark 
 
 ## Evaluation Set Stats
 
-| **GooglePlay (Size)**               ||
-:-----------------:|---------|---------|
- Mean(MB)          | Min(MB) | Max(MB) |
- 25.03             | 1.32    | 86.72   |
+| **GooglePlay (Size)**              |||
+|:----------------:|---------|---------|
+|Mean(MB)          | Min(MB) | Max(MB) |
+|25.03             | 1.32    | 86.72   |
 
 | **Benchmark (Size)**                |||
 |:----------------:|----------|---------|
@@ -230,4 +230,8 @@ This repo also contains the details of our empirical evaluation on 93 benchmark 
 
 
 ### Menus/Drawers/Dialogs
-
+| **Transition Type**| **APIs**|
+|------------------|-----------------------------------|
+| Menu Open        | MenuInflater.inflate(int, Menu) |
+| Drawer Open      | DawerLayout.openDrawer(View, boolean)<br>       .openDrawer(View)<br>       .openDrawer(int)<br>        .openDrawer(int, boolean) |
+| ShowDialog       | DialogFragment.show(FragmentTransaction, String)<br>             .show(FragmentManager, String)<br>           .showNow(FragmentManager,String)|
