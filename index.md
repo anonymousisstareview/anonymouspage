@@ -204,10 +204,10 @@ This repo also contains the details of our empirical evaluation on 93 benchmark 
 
 ## Evaluation Set Stats
 
-| **GooglePlay (Size)**               |||
-|:-----------------:|---------|---------|
-| Mean(MB)          | Min(MB) | Max(MB) |
-| 25.03             | 1.32    | 86.72   |
+| **GooglePlay (Size)**               ||
+:-----------------:|---------|---------|
+ Mean(MB)          | Min(MB) | Max(MB) |
+ 25.03             | 1.32    | 86.72   |
 
 | **Benchmark (Size)**                |||
 |:----------------:|----------|---------|
