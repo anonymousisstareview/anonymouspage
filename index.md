@@ -204,16 +204,37 @@ This repo also contains the details of our empirical evaluation on 93 benchmark 
 
 ## Evaluation Set Stats
 
-| Google Play |      |       |
+| Google Play (Size)  |          |           |
 |-------------|------|-------|
-| Mean        | Min  | Max   |
-| 25.03       | 1.32 | 86.72 |
+| Mean(MB)            | Min(MB)  | Max(MB)   |
+| 25.03               | 1.32     | 86.72     |
 
-| Benchmark |      |       |
+| Benchmark (Size) |          |         |
 |-----------|------|-------|
-| Mean      | Min  | Max   |
-| 0.71      | 0.02 | 20.59 |
+| Mean(MB)         | Min(MB)  | Max(MB) |
+| 0.71             | 0.02     | 20.59   |
 
 ### Google Play Catagory
 
 ![Distribution](images/GooglePlayDistribution.png)
+
+## APIs used in analysis (STG Extractor)
+
+### Fragments
+
+| Transition Type  | APIs of FragmentTransaction Class |
+|------------------|-----------------------------------|
+| Add fragment     | add(Fragment, String)             |
+|                  | add(int, Fragment)                |
+|                  | add(int, Fragment, String)        |
+|                  | attach(Fragment)                  |
+|                  | show(Fragment)                    |
+| Replace fragment | replace(int, Fragment)            |
+|                  | replace(int, Fragment, String)    |
+| Remove fragment  | remove(Fragment)                  |
+|                  | detach(Fragment)                  |
+|                  | hide(Fragment)                    |
+
+
+### Menus/Drawers/Dialogs
+
