@@ -233,5 +233,5 @@ This repo also contains the details of our empirical evaluation on 93 benchmark 
 | **Transition Type**| **APIs**|
 |------------------|-----------------------------------|
 | Menu Open        | MenuInflater.inflate(int, Menu) |
-| Drawer Open      | DawerLayout.openDrawer(View, boolean)<br>       .openDrawer(View)<br>       .openDrawer(int)<br>        .openDrawer(int, boolean) |
-| ShowDialog       | DialogFragment.show(FragmentTransaction, String)<br>             .show(FragmentManager, String)<br>           .showNow(FragmentManager,String)|
+| Drawer Open      | DawerLayout.openDrawer(View, boolean)<br>&nbsp; &nbsp; &nbsp; &nbsp; .openDrawer(View)<br> &nbsp; &nbsp; &nbsp; &nbsp; .openDrawer(int)<br>&nbsp; &nbsp; &nbsp; &nbsp; .openDrawer(int, boolean) |
+| ShowDialog       | DialogFragment.show(FragmentTransaction, String)<br>&nbsp; &nbsp; &nbsp; &nbsp; .show(FragmentManager, String)<br>&nbsp; &nbsp; &nbsp; &nbsp; .showNow(FragmentManager,String)|
