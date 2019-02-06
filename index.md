@@ -230,8 +230,18 @@ This repo also contains the details of our empirical evaluation on 93 benchmark 
 
 
 ### Menus/Drawers/Dialogs
+
 | **Transition Type**| **APIs**|
 |------------------|-----------------------------------|
 | Menu Open        | MenuInflater.inflate(int, Menu) |
 | Drawer Open      | DawerLayout.openDrawer(View, boolean)<br>&nbsp; &nbsp; &nbsp; &nbsp; .openDrawer(View)<br> &nbsp; &nbsp; &nbsp; &nbsp; .openDrawer(int)<br>&nbsp; &nbsp; &nbsp; &nbsp; .openDrawer(int, boolean) |
 | ShowDialog       | DialogFragment.show(FragmentTransaction, String)<br>&nbsp; &nbsp; &nbsp; &nbsp; .show(FragmentManager, String)<br>&nbsp; &nbsp; &nbsp; &nbsp; .showNow(FragmentManager,String)|
+
+### Transition Methods
+
+| **Transition Type**| **APIs of Context class**|
+|------------------|-----------------------------------|
+| Launch activity  | startActivity(Intent)<br>startActivity(Intent, Bundle)<br> startActivityForResult(Intent, int)<br>
+startActivityForResult(Intent, int, Bundle)<br> startActivityFromChild(Activity, Intent, int, Bundle)<br> startActivityFromChild(Activity, Intent, int)<br>startActivityFromFragment(Fragment, Intent, int)<br> startActivityFromFragment(Fragment, Intent, int, Bundle)<br> startActivityIfNeeded(Intent,int)<br> startActivityIfNeeded(Intent, int, Bundle)<br> startActivities(Intent[])<br>startActivities(Intent[], Bundle)|
+| Launch service   | startService(Intent)<br>startForegroundService(Intent)|
+| Send broadcast   | sendBroadcast(Intent)<br>sendBroadcast(Intent, String)<br>sendBroadcastAsUser(Intent,UserHandle)<br>sendBroadcastAsUser(Intent, UserHandle,String) |
