@@ -9,7 +9,7 @@ This repo also contains the details of our empirical evaluation on 93 benchmark 
 
 ### Google Play
 
-| App                                             | Category            | Version                | Size (KB) | Installs       |
+| **App**                                         | **Category**        | **Version**            | **Size(KB)**| **Installs**       |
 |-------------------------------------------------|---------------------|------------------------|-----------|----------------|
 | com.saq.android                                 | LIFESTYLE           |  5.1.5                 | 6.82      | 500,000+       |
 | ca.autotrader.userapp                           | LIFESTYLE           |  6.6.0                 | 24.83     | 1,000,000+     |
@@ -108,7 +108,7 @@ This repo also contains the details of our empirical evaluation on 93 benchmark 
 
 ### Benchmark
 
-| Package Name                            | Version       | Size(KB)    |
+| **Package Name**                        | **Version**   | **Size(KB)**|
 |-----------------------------------------|---------------|-------------|
 | net.jaqpot.netcounter                   |  0.13.1       | 0.203125    |
 | com.google.android.divideandconquer     | 1.4           | 0.184570313 |
@@ -204,13 +204,13 @@ This repo also contains the details of our empirical evaluation on 93 benchmark 
 
 ## Evaluation Set Stats
 
-| Google Play (Size)  |          |           |
-|-------------|------|-------|
-| Mean(MB)            | Min(MB)  | Max(MB)   |
-| 25.03               | 1.32     | 86.72     |
+| **GooglePlay (Size)**               |||
+|:-----------------:|---------|---------|
+| Mean(MB)          | Min(MB) | Max(MB) |
+| 25.03             | 1.32    | 86.72   |
 
-| Benchmark (Size) |          |         |
-|-----------|------|-------|
+| **Benchmark (Size)**                |||
+|:----------------:|----------|---------|
 | Mean(MB)         | Min(MB)  | Max(MB) |
 | 0.71             | 0.02     | 20.59   |
 
@@ -222,18 +222,18 @@ This repo also contains the details of our empirical evaluation on 93 benchmark 
 
 ### Fragments
 
-| Transition Type  | APIs of FragmentTransaction Class |
+| **Transition Type**| **APIs of FragmentTransaction Class**|
 |------------------|-----------------------------------|
-| Add fragment     | add(Fragment, String)             |
-|                  | add(int, Fragment)                |
-|                  | add(int, Fragment, String)        |
-|                  | attach(Fragment)                  |
-|                  | show(Fragment)                    |
-| Replace fragment | replace(int, Fragment)            |
-|                  | replace(int, Fragment, String)    |
-| Remove fragment  | remove(Fragment)                  |
-|                  | detach(Fragment)                  |
-|                  | hide(Fragment)                    |
+| Add fragment     | add(Fragment, String)<br> 
+                     add(int, Fragment)<br>
+                     add(int, Fragment, String)<br> 
+                     attach(Fragment)<br>               
+                     show(Fragment)<br>                |
+| Replace fragment | replace(int, Fragment)<br>
+                     replace(int, Fragment, String)    |
+| Remove fragment  | remove(Fragment)<br>              |
+                     detach(Fragment)<br>              |
+                     hide(Fragment)                    |
 
 
 ### Menus/Drawers/Dialogs
