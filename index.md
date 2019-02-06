@@ -224,16 +224,9 @@ This repo also contains the details of our empirical evaluation on 93 benchmark 
 
 | **Transition Type**| **APIs of FragmentTransaction Class**|
 |------------------|-----------------------------------|
-| Add fragment     | add(Fragment, String)<br> 
-                     add(int, Fragment)<br>
-                     add(int, Fragment, String)<br> 
-                     attach(Fragment)<br>               
-                     show(Fragment)<br>                |
-| Replace fragment | replace(int, Fragment)<br>
-                     replace(int, Fragment, String)    |
-| Remove fragment  | remove(Fragment)<br>              |
-                     detach(Fragment)<br>              |
-                     hide(Fragment)                    |
+| Add fragment     | add(Fragment, String)<br>add(int, Fragment)<br>add(int, Fragment, String)<br>attach(Fragment)<br>          show(Fragment)<br> |
+| Replace fragment | replace(int, Fragment)<br>replace(int, Fragment, String)|
+| Remove fragment  | remove(Fragment)<br>detach(Fragment)<br>hide(Fragment)|
 
 
 ### Menus/Drawers/Dialogs
